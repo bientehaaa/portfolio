@@ -94,8 +94,10 @@ h3 { margin-bottom: .7rem; font-size: 1.18rem; }
 .hero { position: relative; padding: clamp(4.75rem, 10vw, 8.5rem) 0 5.5rem; background: linear-gradient(135deg, #fff 0%, #f4f9fc 58%, #e7f6f3 100%); }
 .hero::after { content: ""; position: absolute; right: -13rem; top: -8rem; width: 34rem; height: 34rem; border: 1px solid rgba(15,148,136,.18); border-radius: 50%; box-shadow: 0 0 0 2.7rem rgba(15,148,136,.035), 0 0 0 5.6rem rgba(15,148,136,.03); pointer-events: none; }
 .hero-grid { position: relative; z-index: 1; display: grid; grid-template-columns: minmax(0, 1.2fr) minmax(270px, .58fr); align-items: end; gap: 4rem; }
+.hero h1 { font-size: clamp(2.65rem, 6.2vw, 4.9rem); }
 .hero-title-role { display: block; margin-top: .7rem; color: var(--blue); font-family: var(--sans); font-size: clamp(1.05rem, 2vw, 1.5rem); font-weight: 750; letter-spacing: 0; }
 .hero-message { max-width: 43rem; color: #344a60; font-size: clamp(1.15rem, 2.5vw, 1.45rem); line-height: 1.5; }
+.hero-supporting { max-width: 39rem; margin-bottom: 0; color: var(--muted); font-size: 1rem; line-height: 1.65; }
 .hero-panel { padding: 1.7rem; background: rgba(255,255,255,.82); border: 1px solid rgba(18,57,95,.12); border-radius: var(--radius); box-shadow: var(--shadow); }
 .hero-panel p { margin-bottom: .7rem; color: var(--muted); font-size: .9rem; }
 .hero-panel ul { display: grid; gap: .7rem; padding: 0; margin: 1.25rem 0 0; list-style: none; }
